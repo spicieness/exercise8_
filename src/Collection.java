@@ -12,6 +12,13 @@ public class Collection {
 
     }
 
+    // display all contacts in the list
+    public void displayAll() {
+        for (ContactInfo a: contacts) {
+            a.display();
+        }
+    }
+
     @Override
     public String toString() {
         return "Collection{" +
